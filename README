@@ -1,1 +1,6 @@
 Examples of how to use C functions in PHP trough the Foreign Function Interface.
+
+example-1/
+    Give it a go using this command:
+    (Is probably locale dependent, due to the string it looks for, but you get the point.)
+        docker run $(docker build . | grep -i 'Successfully built' | awk '{print $3}')
